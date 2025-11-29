@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* 1. We FORCE these dark colors to be the default. No white background. */
+  --background: #0a0a0a; /* Deep charcoal */
+  --foreground: #ededed; /* Off-white text */
+  
+  /* 2. Add these new variables for your cards and borders */
+  --card: #171717;       
+  --border: #262626;     
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 3. Global styles for smooth scrolling and clean text */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* Use the Geist font we set up in layout.tsx */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
