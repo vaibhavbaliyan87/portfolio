@@ -17,7 +17,7 @@ const stack = [
 const services = [
   {
     title: "Rapid MVP Development",
-    description: "I take your startup idea and deploy a fully functional Minimum Viable Product in 14 days. No bloat, just the core features you need to launch.",
+    description: "I take your startup idea and deploy a fully functional Minimum Viable Product in 7 days. No bloat, just the core features you need to launch.",
     icon: <Rocket className="text-purple-400" size={32} />,
   },
   {
