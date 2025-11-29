@@ -46,7 +46,7 @@ export default function Hero() {
             View My Work
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="#contact"
             className="px-8 py-4 border border-zinc-700 text-white font-medium rounded-full hover:bg-zinc-900 transition-all active:scale-95"
           >
             Contact Me
