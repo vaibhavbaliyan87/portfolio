@@ -2,7 +2,7 @@
 
 A high-performance, dark-themed portfolio website built to showcase full-stack development skills. Designed with a focus on conversion, speed, and modern UI/UX principles.
 
-![Portfolio Preview](public/opengraph-image.png)
+![Portfolio Preview](src/opengraph-image.png)
 
 ## Overview
 
@@ -43,5 +43,5 @@ This is not just a static site; it is a **high-conversion portfolio** designed t
 │   │   ├── Work.tsx       # Bento Grid project showcase
 │   │   ├── ProjectModal.tsx # Detailed case study popup
 │   │   ├── Services.tsx   # Infinite scroll marquee & offerings
-│   │   ├── ContactForm.tsx# UI for contact form
+│   │   ├── ContactForm.tsx # UI for contact form
 │   │   └── Navbar.tsx     # Sticky glassmorphism navigation
